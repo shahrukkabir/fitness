@@ -14,8 +14,8 @@ body {
 header {
     max-width: 1536px;
     height: 715px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    padding-top: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
+    padding: 60px 0px;
 }
 
 /* nav section styles */
@@ -48,4 +48,50 @@ nav a {
     font-size: 38px;
     font-weight: 800;
     font-style: italic;
+}
+
+/* banner section */
+
+.banner {
+    border: 2px solid red;
+    display: flex;
+    margin-top: 50px;
+    gap: 168px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 190px;
+}
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 28px 0px;
+}
+
+.btn-primary {
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border: none;
+}
+#download-btn{
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+.btn-container{
+    display: flex;
+    gap: 20px;    
+}
+.banner img{
+    vertical-align: middle;
 }
