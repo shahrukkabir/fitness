@@ -61,6 +61,7 @@ nav a {
     align-items: center;
     padding: 0px 190px;
 }
+
 .banner-title {
     color: rgb(255, 255, 255);
     font-size: 80px;
@@ -70,7 +71,7 @@ nav a {
 
 .banner-description {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     text-align: left;
     margin: 28px 0px;
@@ -84,14 +85,70 @@ nav a {
     font-weight: 600;
     border: none;
 }
-#download-btn{
+
+#download-btn {
     background: none;
     border: 1px solid rgb(255, 255, 255);
 }
-.btn-container{
+
+.btn-container {
     display: flex;
-    gap: 20px;    
+    gap: 20px;
 }
-.banner img{
+
+.banner img {
     vertical-align: middle;
+}
+
+/* habit section */
+
+.habit {
+    border: 2px solid red;
+    max-width: 1536px;
+    height: 550px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
+    padding: 60px 150px;
+}
+.habit-content{
+    margin: 50px;
+}
+.habit-top{
+    padding: 0px 280px;
+}
+.habit-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.habit-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 8px;
+}
+.img-title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.habit img{
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.img-container {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 54px;
+}
+.img-container p{
+    text-align: center;
 }
