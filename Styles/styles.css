@@ -161,13 +161,13 @@ nav a {
 
 /* run section */
 
-.run {
+.run,
+.training {
     /* border: 2px solid red; */
     max-width: 1536px;
-    height: 450px;
+    height: 400px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
     padding: 60px 170px;
-    margin: 0px auto;
 }
 
 .run-container {
@@ -176,7 +176,7 @@ nav a {
     gap: 165px;
     padding: 43px 35px 30px 55px;
     border-radius: 18px;
-    background: rgb(34, 34, 34);
+    background: rgb(30, 30, 30);
 }
 
 .run img {
@@ -189,8 +189,121 @@ nav a {
     text-align: left;
 }
 
+.ans {
+    margin-bottom: 60px;
+}
+
 #run-des {
     text-align: left;
+    margin-top: 10px;
+}
+
+/* training and exercise section  */
+#exercise {
+    height: 850px;
+}
+
+.row {
+    height: 230px;
+    display: flex;
+}
+
+.row img {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.row>div {
+    flex: 1;
+}
+
+.bmi {
+    margin-top: 80px;
+    margin-left: 194px;
+}
+
+
+/* BMI Calculator */
+
+.BMI {
+    /* border: 2px solid red; */
+    max-width: 1536px;
+    height: 400px;
+    background: rgb(30, 30, 30);
+    padding: 60px 170px;
+    display: flex;
+    gap: 170px;
+}
+
+
+
+.table-container {
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px 30px;
+    border: 1px solid #555;
+    color: white;
+}
+
+th {
+    background-color: #333;
+    font-size: 13px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #252525;
+}
+.chart-title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 74px;
+}
+.bmi-calculation {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.bmi-title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.calculation input {
+    border-radius: 4px;
+    height: 50px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0px;
+    padding-left: 20px;
+
+}
+.top{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+.bottom{
+    display: flex;
+    gap: 20px;
+}
+.full-input input{
+    width: 540px;
     margin-top: 20px;
-    margin-bottom: 36px;
 }
