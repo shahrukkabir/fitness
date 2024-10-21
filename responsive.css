@@ -1,0 +1,31 @@
+/* responsive mobile  max-width:600px*/
+@media screen and (max-width:600px) {
+    header {
+        height: 200vh
+    }
+    .nav>ul,
+    .banner {
+        flex-direction: column;
+    }
+    .nav-section {
+        flex-direction: row;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    nav>ul {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+        color: white;
+        width: 50px;
+        margin-left: 160px;
+        font-size: 1.5em;
+    }
+    .btn-primary{
+        padding: 20px 20px;
+    }
+    .banner{
+        gap: 30px;
+    }
+}

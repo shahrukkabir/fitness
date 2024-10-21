@@ -1,57 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* universal style */
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: "Inter", sans-serif;
 }
-
 /* header section */
-
 header {
     max-width: 1536px;
+    margin: 0 auto;
     height: 715px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
     padding: 60px 0px;
+    /* border: 2px solid red; */
 }
-
 /* nav section styles */
-
 .nav-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 190px;
 }
-
 nav>ul {
     display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    margin: 0 auto;
+    align-items: center;
 }
-
 nav li {
     list-style: none;
 }
-
 nav a {
     text-decoration: none;
     margin-left: 50px;
     color: rgb(255, 255, 255);
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 400;
 }
-
+.hamburger-menu {
+    display: none;
+}
+.about{
+    margin-right: 50px;
+}
+.btn-home{
+    padding: 8px 40px 8px 0px;
+    background: rgb(230, 83, 60);
+    border-radius: 40px;
+    text-align: center;
+}
 .fitness {
     color: rgb(230, 83, 60);
     font-size: 38px;
     font-weight: 800;
     font-style: italic;
 }
-
+.shape{
+    font-style: italic;
+    font-weight: 500 ;
+}
 /* banner section */
-
 .banner {
     /* border: 2px solid red; */
     display: flex;
@@ -61,14 +71,12 @@ nav a {
     align-items: center;
     padding: 0px 190px;
 }
-
 .banner-title {
     color: rgb(255, 255, 255);
     font-size: 80px;
     font-weight: 900;
     text-align: left;
 }
-
 .banner-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 18px;
@@ -76,7 +84,6 @@ nav a {
     text-align: left;
     margin: 28px 0px;
 }
-
 .btn-primary {
     padding: 16px 40px;
     border-radius: 42px;
@@ -85,17 +92,14 @@ nav a {
     font-weight: 600;
     border: none;
 }
-
 #download-btn {
     background: none;
     border: 1px solid rgb(255, 255, 255);
 }
-
 .btn-container {
     display: flex;
     gap: 20px;
 }
-
 .banner img {
     vertical-align: middle;
 }
@@ -162,7 +166,8 @@ nav a {
 /* run section */
 
 .run,
-.training {
+.training,
+.meet {
     /* border: 2px solid red; */
     max-width: 1536px;
     height: 400px;
@@ -306,4 +311,29 @@ tbody tr:nth-child(even) {
 .full-input input{
     width: 540px;
     margin-top: 20px;
+}
+
+
+/* meet team section */
+.meet{
+    height: 800px;
+}
+
+.img-container img{
+    width: 330px;
+    height: 275px;
+    
+}
+.img-container{
+    border: 2px solid salmon;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 5px; */
+    /* padding: 10px; */
+    /* margin: 0 auto; */
+    margin-left: 80px;
+}
+
+.none{
+    display: none;
 }
