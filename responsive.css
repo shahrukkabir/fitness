@@ -1,20 +1,25 @@
 /* responsive mobile  max-width:600px*/
 @media screen and (max-width:600px) {
     header {
-        height: 200vh
+        height: 1390px
     }
+
     .nav>ul,
-    .banner {
+    .banner,
+    .img-container {
         flex-direction: column;
     }
+
     .nav-section {
         flex-direction: row;
         margin: 0px;
         margin-left: 70px;
     }
+
     nav>ul {
         display: none;
     }
+
     .hamburger-menu {
         display: block;
         color: white;
@@ -22,10 +27,25 @@
         margin-left: 160px;
         font-size: 1.5em;
     }
-    .btn-primary{
+
+    .btn-primary {
         padding: 20px 20px;
     }
-    .banner{
+
+    .banner {
         gap: 30px;
+    }
+
+    .img-container {
+        gap: 40px;
+    }
+
+    .habit {
+        height: 1500px;
+        padding: 40px 60px;
+    }
+
+    #habit-top {
+        padding: 0px;
     }
 }
