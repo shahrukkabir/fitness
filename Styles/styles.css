@@ -126,13 +126,18 @@ nav a {
 .habit {
     /* border: 2px solid red; */
     max-width: 1536px;
-    height: 550px;
+    margin: 0 auto;
+    height: 600px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
-    padding: 60px 150px;
+    padding-top: 60px;
 }
 
-habit-top {
-    padding: 0px 280px;
+.habit-content {
+    /* border: 2px solid red; */
+    gap: 168px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 190px;
 }
 
 .habit-title {
@@ -140,7 +145,7 @@ habit-top {
     font-size: 48px;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .habit-des {
@@ -149,6 +154,8 @@ habit-top {
     font-weight: 400;
     text-align: center;
     margin-top: 8px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
 .img-title {
@@ -178,27 +185,30 @@ habit-top {
 
 /* run section */
 
-.run,
-.training,
-.meet {
-    /* border: 2px solid red; */
+.run {
     max-width: 1536px;
+    margin: 0 auto;
     height: 400px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
-    padding: 60px 170px;
+}
+
+.run-content {    
+    padding: 0px 190px;
 }
 
 .run-container {
-    /* border: 2px solid red; */
     display: flex;
+    align-items: center;
     gap: 165px;
     padding: 43px 35px 30px 55px;
     border-radius: 18px;
-    background: rgb(30, 30, 30);
+    background: rgb(32, 32, 32);
 }
 
+/* run,.training,.meet  */
+
 .run img {
-    width: 30%px;
+    width: 20%px;
     height: 250px;
     border-radius: 20px;
 }
@@ -213,7 +223,9 @@ habit-top {
 
 #run-des {
     text-align: left;
-    margin-top: 10px;
+    margin: 20px 0px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 }
 
 /* training and exercise section  */
