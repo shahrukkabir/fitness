@@ -6,7 +6,11 @@
 
     .nav>ul,
     .banner,
-    .img-container {
+    .img-container,
+    .run-container,
+    .BMI,
+    .top,
+    .bottom {
         flex-direction: column;
     }
 
@@ -41,11 +45,49 @@
     }
 
     .habit {
-        height: 1500px;
+        height: 1600px;
         padding: 40px 60px;
     }
 
-    .habit-content {
+    .run {
+        height: 1000px;
+    }
+
+    .habit-content,
+    .run-content {
         padding: 0px;
+    }
+
+    .run-container {
+        gap: 20px;
+    }
+
+    #run-btn {
+        width: 100%;
+    }
+
+    .run-content {
+        padding: 10px;
+    }
+
+    .bmi-container {
+        height: 900px;
+        padding: 50px 0px;
+    }
+    .chart-title{
+        margin-bottom: 50px;
+        font-size: 26px;
+    }
+
+    .bmi {
+        margin: 80px 30px;
+    }
+
+    .BMI {
+        gap: 70px;
+    }
+
+    .full-input input {
+        width: 250px;
     }
 }

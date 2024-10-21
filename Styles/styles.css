@@ -188,7 +188,7 @@ nav a {
 .run {
     max-width: 1536px;
     margin: 0 auto;
-    height: 400px;
+    height: 620px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
@@ -203,12 +203,11 @@ nav a {
     padding: 43px 35px 30px 55px;
     border-radius: 18px;
     background: rgb(32, 32, 32);
+    
 }
 
-/* run,.training,.meet  */
-
 .run img {
-    width: 20%px;
+    width: 100%;
     height: 250px;
     border-radius: 20px;
 }
@@ -228,42 +227,32 @@ nav a {
     letter-spacing: 0.3px;
 }
 
-/* training and exercise section  */
-#exercise {
-    height: 850px;
-}
-
-.row {
-    height: 230px;
-    display: flex;
-}
-
-.row img {
-    width: 100%;
-    height: 100%;
-    /* border: 2px solid red; */
-}
-
-.row>div {
-    flex: 1;
-}
 
 .bmi {
     margin-top: 80px;
-    margin-left: 194px;
+    margin-left: 320px;
 }
 
 
 /* BMI Calculator */
 
+.bmi-container{
+    /* border: 2px solid red; */
+    max-width: 1536px;
+    margin: 0 auto;
+    height: 600px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
 .BMI {
     /* border: 2px solid red; */
     max-width: 1536px;
+    margin: 0 auto;
+    align-items: center;
     height: 400px;
-    background: rgb(30, 30, 30);
-    padding: 60px 170px;
+    padding: 0px 180px;
     display: flex;
-    gap: 170px;
+    gap: 250px;
 }
 
 .table-container {
