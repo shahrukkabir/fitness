@@ -192,7 +192,7 @@ nav a {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
-.run-content {    
+.run-content {
     padding: 0px 190px;
 }
 
@@ -203,7 +203,7 @@ nav a {
     padding: 43px 35px 30px 55px;
     border-radius: 18px;
     background: rgb(32, 32, 32);
-    
+
 }
 
 .run img {
@@ -236,7 +236,7 @@ nav a {
 
 /* BMI Calculator */
 
-.bmi-container{
+.bmi-container {
     /* border: 2px solid red; */
     max-width: 1536px;
     margin: 0 auto;
@@ -332,23 +332,34 @@ tbody tr:nth-child(even) {
 
 
 /* meet team section */
+
 .meet {
-    height: 800px;
+    border: 2px solid red;
+    max-width: 1536px;
+    margin: 0 auto;
+    height: 1000px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
+    padding-top: 60px;
 }
 
-.img-container-2 img {
-    width: 330px;
-    height: 275px;
-
+.img-container-meet img {
+    width: 350px;
+    height: 274px;
+}
+.meet-contact{
+    margin-bottom: 50px;
+}
+.img-container-meet {
+    border: 5px solid slateblue;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 0px 190px;
 }
 
 .img-container-2 {
-    border: 2px solid salmon;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* gap: 5px; */
-    /* padding: 10px; */
-    /* margin: 0 auto; */
+    gap: 5px;
+    padding: 10px;
     margin-left: 80px;
 }
 
