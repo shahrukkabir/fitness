@@ -10,7 +10,8 @@
     .run-container,
     .BMI,
     .top,
-    .bottom {
+    .bottom,
+    .footer-container {
         flex-direction: column;
     }
 
@@ -103,4 +104,17 @@
     .meet-content{
         padding: 0px 25px;
     }
-}
+    footer{
+        height: 800px;
+    }
+    .footer-content{
+        padding: 0px;
+    }
+    .footer-container{
+        gap: 30px;
+    }
+    .footer-section-inner{
+        padding-left: 0px;
+    }
+
+}    

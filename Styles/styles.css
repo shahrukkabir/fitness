@@ -246,8 +246,6 @@ nav a {
 
 .BMI {
     /* border: 2px solid red; */
-    max-width: 1536px;
-    margin: 0 auto;
     align-items: center;
     height: 400px;
     padding: 0px 180px;
@@ -346,12 +344,14 @@ tbody tr:nth-child(even) {
     height: 274px;
     border-radius: 18px;
 }
-.meet-content{
+
+.meet-content {
     margin-bottom: 50px;
 }
+
 .img-container-meet {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     margin: 0px 190px;
     border-radius: 18px;
@@ -359,6 +359,102 @@ tbody tr:nth-child(even) {
     padding-right: 25px;
     background: rgb(32, 32, 32);
 }
+
 .none {
     display: none;
+}
+
+
+/* footer section */
+
+
+footer {
+    /* border: 2px solid red; */
+    max-width: 1536px;
+    margin: 0 auto;
+    height: 415px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
+    padding-top: 60px;
+}
+
+.footer-content {
+    /* border: 5px solid red; */
+    height: 400px;
+    padding: 0px 190px;
+    gap: 250px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+}
+
+.footer-section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-section h2 {
+    color: #ff5733;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid white;
+    margin-top: 100px;
+}
+
+.footer-bottom p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-section-inner{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.get-started {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
 }
