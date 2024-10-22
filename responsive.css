@@ -48,6 +48,9 @@
         height: 1600px;
         padding: 40px 60px;
     }
+    .habit-title{
+        font-size: 30px;
+    }
 
     .run {
         height: 1000px;
@@ -89,5 +92,15 @@
 
     .full-input input {
         width: 250px;
+    }
+    .meet{
+        height: 2100px;
+    }
+    .img-container-meet {
+        grid-template-columns: repeat(1,1fr);
+        margin: 15px;
+    }
+    .meet-content{
+        padding: 0px 25px;
     }
 }

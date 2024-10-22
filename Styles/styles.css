@@ -240,7 +240,7 @@ nav a {
     /* border: 2px solid red; */
     max-width: 1536px;
     margin: 0 auto;
-    height: 600px;
+    height: 550px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
@@ -334,35 +334,31 @@ tbody tr:nth-child(even) {
 /* meet team section */
 
 .meet {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 1536px;
     margin: 0 auto;
-    height: 1000px;
+    height: 900px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
-    padding-top: 60px;
 }
 
 .img-container-meet img {
     width: 350px;
     height: 274px;
+    border-radius: 18px;
 }
-.meet-contact{
+.meet-content{
     margin-bottom: 50px;
 }
 .img-container-meet {
-    border: 5px solid slateblue;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    padding: 0px 190px;
+    gap: 25px;
+    margin: 0px 190px;
+    border-radius: 18px;
+    padding: 20px;
+    padding-right: 25px;
+    background: rgb(32, 32, 32);
 }
-
-.img-container-2 {
-    gap: 5px;
-    padding: 10px;
-    margin-left: 80px;
-}
-
 .none {
     display: none;
 }
