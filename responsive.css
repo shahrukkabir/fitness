@@ -11,7 +11,8 @@
     .BMI,
     .top,
     .bottom,
-    .footer-container {
+    .footer-container,
+    .card-container {
         flex-direction: column;
     }
 
@@ -46,10 +47,11 @@
     }
 
     .habit {
-        height: 1600px;
+        height: 1800px;
         padding: 40px 60px;
     }
-    .habit-title{
+
+    .habit-title {
         font-size: 30px;
     }
 
@@ -78,7 +80,8 @@
         height: 900px;
         padding: 50px 0px;
     }
-    .chart-title{
+
+    .chart-title {
         margin-bottom: 50px;
         font-size: 26px;
     }
@@ -94,27 +97,41 @@
     .full-input input {
         width: 250px;
     }
-    .meet{
+
+    .meet {
         height: 2100px;
     }
+
     .img-container-meet {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin: 15px;
     }
-    .meet-content{
+
+    .meet-content {
         padding: 0px 25px;
     }
-    footer{
+
+    footer {
         height: 800px;
     }
-    .footer-content{
+
+    .footer-content {
         padding: 0px;
     }
-    .footer-container{
+
+    .footer-container {
         gap: 30px;
     }
-    .footer-section-inner{
+
+    .footer-section-inner {
         padding-left: 0px;
     }
 
-}    
+    .card-container {
+        padding: 0px 15px;
+    }
+
+    .card {
+        height: 300px;
+    }
+}
