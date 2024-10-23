@@ -99,16 +99,19 @@
     }
 
     .meet {
-        height: 2100px;
+        height: 2200px;
     }
 
     .img-container-meet {
         grid-template-columns: repeat(1, 1fr);
         margin: 15px;
+        padding: 36px;
     }
-
+    .img-container-meet img{
+        width: 300px;
+    }
     .meet-content {
-        padding: 0px 25px;
+        padding: 50px 25px;
     }
 
     footer {
@@ -128,10 +131,20 @@
     }
 
     .card-container {
-        padding: 0px 15px;
+        padding: 50px 15px;
     }
 
     .card {
-        height: 300px;
+        height: 350px;
+    }
+    .small-card {
+        top: 1300px;
+        left: 15px;
+        width: 150px;
+    }
+    .small-card2{
+        top: 1060px;
+        left: 140px;
+        width: 170px;
     }
 }
